@@ -8,9 +8,9 @@ Build Instructions:
     ii) Redis
 4) Now the KVstore server will be running on port 5000 of your local machine, and can be accessed using HTTP requests.
 5) Run.sh is the shell script to test the features from command line.
-6)  i) To perform get(key), Use "sh run.sh get <key>".
+6)  i) To perform get(key), Use "sh run.sh get key".
     
-   ii) To perform put(key,value), Use "sh run.sh put <key> '<Value>' ".
+   ii) To perform put(key,value), Use "sh run.sh put key 'Value' ".
     
    iii) to perform watch, use "sh run.sh watch".
   
