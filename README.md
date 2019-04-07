@@ -13,6 +13,7 @@ Build Instructions:
    iii) to perform watch, use "sh run.sh watch".
   
   Design:
+  
   Server side implementation is done in Django framework using Redis as key-value database.
   In Classes->RedisClass.py contains the helper functions to query the database.
   In Home-views.py contain the main server code which interacts with the client and the database.
